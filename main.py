@@ -13,3 +13,7 @@ def about():
 @app.get('/contact')
 def contact():
     return {'data' : "my contact page"}
+
+@app.get('/blog')
+def blog():
+    return {'data' : "my blog page"}
